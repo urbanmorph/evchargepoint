@@ -14,7 +14,7 @@
   <body>
     <div class="container-fluid">
     <div class="row flex-nowrap">
-        <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 pt-5 shadow bg-white rounded">
+        <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 pt-5 shadow bg-white rounded position-fixed">
             <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-warning min-vh-100">
                     <span class="fs-5 d-none d-sm-inline mb-5"><img src="images/ITES Logo_Tag_Color.png" class="rounded img-thumbnail border-0"></span>
                 <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
@@ -62,9 +62,9 @@
                     </li> -->
                 </ul>
                 <hr>
-                <div class="dropdown pb-4 mb-5">
-                    <a href="#" class="d-flex align-items-center text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
-                        <img src="https://github.com/mdo.png" alt="hugenerd" width="30" height="30" class="rounded-circle">
+                <div class="dropdown fixed-bottom mb-3 mx-3 px-1 pb-1">
+                    <a href="#" class="d-flex align-items-center text-decoration-none dropdown-toggle mx-1 px-1" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="images/ITES circle.png" width="30" height="30" class="rounded-circle">
                         <span class="d-none d-sm-inline mx-1">Admin</span>
                     </a>
                     <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
@@ -78,10 +78,10 @@
                 </div>
             </div>
         </div>
-        <div class="col-12 py-3" style="justify-content: center; align-items: center;">
-        <div class="container-fluid">
-          <h1 id="charge_point_map">charge point map</h1>
-        </div>
+        <div class="col-10 py-3" style="justify-content: center;right: 0;position: absolute;">
+            <div class="container-fluid">
+              <h1 id="charge_point_map">charge point map</h1>
+            </div>
         </div>
     </div>
 </div>
